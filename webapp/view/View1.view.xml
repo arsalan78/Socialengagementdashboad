@@ -1,0 +1,77 @@
+<mvc:View controllerName="socialint.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns:core="sap.ui.core"
+    xmlns:f="sap.f"
+    xmlns="sap.m"
+    xmlns:l="sap.ui.layout"
+    xmlns:html="http://www.w3.org/1999/xhtml"
+    xmlns:form="sap.ui.layout.form">
+    <Page id="page" title="Social Int">
+
+        <customHeader >
+            <Bar id="customheaderbox" class="pagebackgroundcolor sapUiNoContentPadding">
+                <contentMiddle>
+                    <ToolbarSpacer id="_IDGenToolbarSpacerw"/>
+                    <Title id="TxtCuentebb" text="Social Interaction DashBoard" class="custtextdash" />
+                    <ToolbarSpacer id="_IDGenToolbarSpacer2"/>
+                    <Title id="TxtCurrent" class="datetime"/>
+                </contentMiddle>
+            </Bar>
+        </customHeader>
+        <FlexBox id="spacer" height="8%"/>
+
+        <!-- Start of Main layout -->
+        <l:VerticalLayout id="containerLayout" width="100%" class="">
+            <l:BlockLayout id="BlockLayout" background="Dashboard" class="customdashboardstytle sapUiNoContentPadding">
+
+                <l:BlockLayoutRow id="_IDGenBlocakLayoautRow1" accentCells="">
+
+                    <l:BlockLayoutCell id="_IDGeanBlockLayoutCell2" titleAlignment="Center" title="" width="32%" class="dashboardcss sapUiResponsiveContentPadding">
+                        <FlexBox id="spacer2" height="12%" visible="false"/>
+                        <FlexBox id="vgty"  alignItems="End" justifyContent="Center" class="adjustheight">
+                            <VBox id="vboxidtemp">
+                                <Title id="titlecen" text="Hello,"  class="custtextstyle1" />
+                                <Title id="title2" text="I am your Personal GEN AI based Analyst," class="custtextstyle2" />
+                                <Title id="title3" text="I can help with analysis on Social Engagements." class="custtextstyle2" />
+
+                                <ComboBox id="publishtoCombo_id" items="{mainModel>/users}" selectionChange="ondropdownselect" placeholder="Select User from DropDown to begin" width="300px" class="sapUiContentPadding sapUiSmallMarginTopBottom">
+                                    <core:Item id="comboid" text="{mainModel>userid}" />
+                                </ComboBox>
+                            </VBox>
+                        </FlexBox>
+                    </l:BlockLayoutCell>
+
+                    <l:BlockLayoutCell id="graphcell" titleAlignment="Center" title="" width="68%" class="dashboardcss sapUiNoContentPadding" visible="true">
+                        <FlexBox id="spacer3" height="35%"/>
+                       <FlexBox id="flexvb" justifyContent="Center">
+                        <Title id="titlecenmet" text="Engagement Metrics"   textAlign="Center" class="engag metricstitle"/>
+                        </FlexBox>
+                        <FlexBox id="flex2">
+                            <core:HTML id="3DPie" afterRendering=" " content="&lt;div id='3Dpiechart' &gt; &lt;/div&gt;"/>
+                            <core:HTML id="mulcols" afterRendering=" " content="&lt;div id='mulcolschart' &gt; &lt;/div&gt;"/>
+
+                        </FlexBox>
+
+                        <VBox id="insightbox" width="100%" class="" visible="false">
+                            <ScrollContainer id="scvld10m" vertical="true" focusable="true" class=" ">
+                                <Text id="insighttext" width="100%" renderWhitespace="true" wrapping="true"  class="insgtt" />
+                            </ScrollContainer>
+                        </VBox>
+                        <!-- <TextArea id="textarea" rows="5" editable="false" width="100%" value="Lorem ipsum dolor st amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat" /> -->
+                    </l:BlockLayoutCell>
+
+                </l:BlockLayoutRow>
+            </l:BlockLayout>
+
+        </l:VerticalLayout>
+
+        <!-- End of Main layout -->
+        <footer>
+            <OverflowToolbar id="_IDGenOverflowToolbar">
+                <ToolbarSpacer id="_IDGenToolbarSpacer1"/>
+                <Title id="Tx123" text="Hackathon 2024-2025" level="H6" />
+
+            </OverflowToolbar>
+        </footer>
+    </Page>
+</mvc:View>
