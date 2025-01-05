@@ -1,0 +1,3 @@
+NOTE: Please use COORS Browser to run the application
+Application link: https://arsalan78.github.io/Socialengagementdashboad/webapp/index.html
+You can directly run this link in COORS browser.
