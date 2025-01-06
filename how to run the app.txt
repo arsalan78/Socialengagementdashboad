@@ -7,6 +7,6 @@ There are 2 steps to run the project successfully.
 Step 1: Open the COORS enabled browser, if you dont have than do below steps
 
 Copy paste
-"C:\Program Files\Google\Chrome\Application\chrome.exe" --incognito --disable-web-security --disable-gpu --user-data-dir=%LOCALAPPDATA%\Google\chromeTemp inside inside command prompt which will in turn open the COORS chrome browser.
+"C:\Program Files\Google\Chrome\Application\chrome.exe" --incognito --disable-web-security --disable-gpu --user-data-dir=%LOCALAPPDATA%\Google\chromeTemp inside command prompt which will in turn open the COORS chrome browser.
 
 Step 2: Visit the Application link: https://arsalan78.github.io/Socialengagementdashboad/webapp/index.html
