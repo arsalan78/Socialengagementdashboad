@@ -1,3 +1,12 @@
 NOTE: Please use COORS Browser to run the application
+
 Application link: https://arsalan78.github.io/Socialengagementdashboad/webapp/index.html
 You can directly run this link in COORS browser.
+
+There are 2 steps to run the project successfully.
+Step 1: Open the COORS enabled browser, if you dont have than do below steps
+
+Copy paste
+"C:\Program Files\Google\Chrome\Application\chrome.exe" --incognito --disable-web-security --disable-gpu --user-data-dir=%LOCALAPPDATA%\Google\chromeTemp inside notepad and save it as .bat format
+
+Step 2: Open the bat file which you created which in turn opens the chrome browser Application link: https://arsalan78.github.io/Socialengagementdashboad/webapp/index.html
