@@ -12,7 +12,7 @@
             <Bar id="customheaderbox" class="pagebackgroundcolor sapUiNoContentPadding">
                 <contentMiddle>
                     <ToolbarSpacer id="_IDGenToolbarSpacerw"/>
-                    <Title id="TxtCuentebb" text="Social Interaction DashBoard" class="custtextdash" />
+                    <Title id="TxtCuentebb" text="Social Interaction Dashboard" class="custtextdash" />
                     <ToolbarSpacer id="_IDGenToolbarSpacer2"/>
                     <Title id="TxtCurrent" class="datetime"/>
                 </contentMiddle>
